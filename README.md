@@ -1,5 +1,5 @@
 # Calc
-Una calculadora basica
+Una calculadora basica //
  apesar de que este en español espero que tambien entiendan 
  los que habla ingles porque hay cosas que pongo en español y
  la verdad nose porque lo hago (acostumbro a hacerlo).
