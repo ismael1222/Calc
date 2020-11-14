@@ -1,0 +1,17 @@
+        p {
+        color:black;
+        }
+        body {
+          background-color:white;
+        }
+          input {
+            text-align: top;
+            border-width:2px;
+            border-color:black;
+          }
+          h2 {
+            color: black;
+          }
+          h1 {
+            color: black;
+          }
