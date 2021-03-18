@@ -1,92 +1,353 @@
 <!DOCTYPE html>
+
 <html>
+
         <!-- Okāsan watashi wa kokorokara anata o aishiteimasu -->
     <head>
-   
+
+
+
+
+
+<!--
+        eto e para que se me recargue automaticamente, no tiene nada que ver y 
+        lo tengo que sacar cuando balla a publicarlo xD
+-->
+
+
+<!--             Para que no se bugee lo de los tildes
+-->
+
+
             <meta charset="utf-8" />
+
+
+<!-- 
+         ------------------ aki ta el icono ------------------
+-->
+
+            <link rel="icon" href="IconCalculadoraAndroid.png">
+
+
+
+
+<!-- 
+        ------------------ titulo ------------------
+-->
+        <title>Calc v1.7 Black and White</title>
+
+
+
+
+<!-- 
+        ------------------ Meto el JS ------------------
+-->
             
-        <title>Calc v1.5 Black and White</title>
-            
-            	<script src="js/main.js"></script>
+            	<script>
+// <!--       Cambiar colores        -->
+var color12 = 1;
+function invertir() {
+var ao = document.getElementById("ao")
+var au = document.getElementById("au")
+var ae = document.getElementById("ae")
+var seis = document.getElementById("seis");
+var intro = document.getElementById("intro");
+var introq = document.getElementById("introq");
+var introw = document.getElementById("introw");
+var introe = document.getElementById("introe");
+var intror = document.getElementById("intror");
+var introt = document.getElementById("introt");
+var introy = document.getElementById("introy");
+var introi = document.getElementById("introi");
+var introo = document.getElementById("introo");
+var introp = document.getElementById("introp");
+var introa = document.getElementById("introa");
+var resultado = document.getElementById("resultado");
+if (color12 == 1){
+var body = document.getElementById("body")
+var au = document.getElementById("au")
+var ae = document.getElementById("ae")
+var seis = document.getElementById("seis");
+var intro = document.getElementById("intro");
+var introq = document.getElementById("introq");
+var introw = document.getElementById("introw");
+var introe = document.getElementById("introe");
+var intror = document.getElementById("intror");
+var introt = document.getElementById("introt");
+var introy = document.getElementById("introy");
+var introi = document.getElementById("introi");
+var introo = document.getElementById("introo");
+var introp = document.getElementById("introp");
+var introa = document.getElementById("introa");
+var resultado = document.getElementById("resultado");
+body.style.color="#ffffff";
+au.style.color="#ffffff";
+ae.style.color="#ffffff";
+intro.style.color="#ffffff";
+introq.style.color="#ffffff";
+introw.style.color="#ffffff";
+introe.style.color="#ffffff";
+intror.style.color="#ffffff";
+introppp.style.color="#ffffff";
+introt.style.color="#ffffff";
+introy.style.color="#ffffff";
+introi.style.color="#ffffff";
+introo.style.color="#ffffff";
+introp.style.color="#ffffff";
+introa.style.color="#ffffff";
+resultado.style.border="#ffffff";
+document.body.style.backgroundColor="black";}
+else{
+  var body = document.getElementById("body")
+var au = document.getElementById("au")
+var ae = document.getElementById("ae")
+var seis = document.getElementById("seis");
+var intro = document.getElementById("intro");
+var introq = document.getElementById("introq");
+var introw = document.getElementById("introw");
+var introe = document.getElementById("introe");
+var intror = document.getElementById("intror");
+var introt = document.getElementById("introt");
+var introy = document.getElementById("introy");
+var introi = document.getElementById("introi");
+var introo = document.getElementById("introo");
+var introp = document.getElementById("introp");
+var introa = document.getElementById("introa");
+var resultado = document.getElementById("resultado");
+body.style.color="black"
+au.style.color="black";
+ae.style.color="black";
+intro.style.color="black";
+introq.style.color="black";
+introw.style.color="black";
+introe.style.color="black";
+intror.style.color="black";
+introppp.style.color="black";
+introt.style.color="black";
+introy.style.color="black";
+introi.style.color="black";
+introo.style.color="black";
+introp.style.color="black";
+introa.style.color="black";
+resultado.style.border="black";
+document.body.style.backgroundColor="#ffffff";
+color12 = 0;}
+color12++;
+};
+//<!--        Sumar          -->
+function sumar(){
+var numero = document.getElementById("num1").value;
+var otronumero = document.getElementById("num2").value;
+var suma = parseInt(numero) + parseInt(otronumero);
+alert ("la suma es " +suma);
+};
+//<!--        Multiplicar          -->
+function multi(){
+var multiyo = document.getElementById("multiyo").value;
+var multiel = document.getElementById("multiel").value;
+var leyo = multiyo * multiel;
+alert ("la multiplicacion es " +leyo);
+};
+//<!--        Restar          -->
+function restar(){
+  var a = document.getElementById("Leyomenosuno").value;
+  var b = document.getElementById("Leyomenosdos").value;
+  var restacionado = a - b;
+  alert("La resta es " +restacionado );
+};
+//<!--        Dividir          -->
+function divino(){
+  var c = document.getElementById("efe").value;
+  var d = document.getElementById("F").value;
+  var dividi = c / d;
+  alert("La divicion es " +dividi);
+};
+function regla(){
+  var g = document.getElementById("estox").value;
+  var ha = document.getElementById("poresto").value;
+  var j = document.getElementById("divesto").value;
+  var gxha = g * ha;
+  var gxhadj = gxha / j;
+  alert("El resultado es " +gxhadj);
+};
+function def1(){
+  alert("Realizar una operación aritmética que consiste en reunir varias cantidades (generalmente numericas) en una sola ")
+};
+function def2(){
+  alert("Realizar una operación aritmética que consiste en sumar un número por si mismo tantas veces como indica otro número")
+};
+function def3(){
+  alert("Operación aritmética que consiste en quitar una cantidad de otra para averiguar la diferencia entre las dos")
+};
+function def4(){
+  alert("Realizar una operación aritmética que consiste en hallar las veces que una cantidad está contenida en otra ")
+};
+function def5(){
+  alert("La regla de tres es una forma de resolver problemas de proporcionalidad entre tres valores conocidos y una incógnita. En ella se establece una relación de linealidad, proporcionalidad, entre los valores ")
+};
+function aok(){
+  g.value="aok";
+};
+function Ejemploa(){
+  alert("Si 14 manzanas cuestan 5385 pesos, cuanto cuestan 44 manzanas? (el resultado, es la incognita \(la x\), el numero se alertara cuando le des al boton \"Resultado\"\) \(El resultado aproximado es de 16924.28 pesos\)")
+};
+function Restaurar(){
+  var ao = document.getElementById("ao")
+var au = document.getElementById("au")
+var ae = document.getElementById("ae")
+var seis = document.getElementById("seis");
+var intro = document.getElementById("intro");
+var introq = document.getElementById("introq");
+var introw = document.getElementById("introw");
+var introe = document.getElementById("introe");
+var intror = document.getElementById("intror");
+var introt = document.getElementById("introt");
+var introy = document.getElementById("introy");
+var introi = document.getElementById("introi");
+var introo = document.getElementById("introo");
+var introp = document.getElementById("introp");
+var introa = document.getElementById("introa");
+var resultado = document.getElementById("resultado");
+body.style.color="black"
+au.style.color="black";
+ae.style.color="black";
+intro.style.color="black";
+introq.style.color="black";
+introw.style.color="black";
+introe.style.color="black";
+intror.style.color="black";
+introppp.style.color="black";
+introt.style.color="black";
+introy.style.color="black";
+introi.style.color="black";
+introo.style.color="black";
+introp.style.color="black";
+introa.style.color="black";
+resultado.style.border="black";
+document.body.style.backgroundColor="#ffffff";
+};
+</script>
+
+
             
             
             
     </head>
-        
     <body id=body>
+<!--
+     ------------------   Sumar  ------------------ 
+-->
     
-    
-    <!-- ------------------   Sumar  --------------- -->
-    
-    
-        <br> <h2 id="intro">Sumar</h2>
-        <br>
+    <div style="margin-left: 30%;margin-right: 30px">
 
-        <input type="number" id="num1" title="El numero que pongas aqui sera sumado por el numero que pongas abajo" value="0">
+        <br> <h2 id="intro" onclick="def1()">Sumar</h2> <pre>/|\ interactuable /|\</pre>
+        <br>
+        <input type="number" id="num1" title="El numero que pongas aqui sera sumado con el numero que pongas en el recuadro de abajo" value="0"  style="border-radius: 6px; background-color: white; text-align: center;">
        <br>
         <h1 id="introq">+</h1> <br>
-        <input type="number" id="num2" value="0"><br> <br >
-        <button id=resultado onclick = "sumar()">Resultado</button>
-        <h1 id="introw">-----------------</h1>
+        <input type="number" id="num2" title="El numero que pongas aqui sera sumado con el numero que pongas en el recuadro de arriba" value="0" style="border-radius: 6px; background-color: white;"><br> <br >
+
+
+        <button id=resultado onclick = "sumar()" style="border-radius: 15px; background-color: white;" align="center
+    ">Resultado</button>
+
+
+        <h1 id="introw" align="center">_________________</h1>
         
         
-        <!-- ------------------   Multiplicar  --------------- -->
+<!--
+         ------------------   Multiplicar  --------------- 
+-->
         
         
-   <h2 id="introppp">Multiplicar</h2>
+   <h2 id="introppp" onclick="def2()">Multiplicar</h2>
    
    
         <br>
-        <input type="number" id="multiyo" value="0"><br>
+        <input type="number" id="multiyo" title="El numero que pongas aqui sera multiplicado por el numero que pongas en el recuadro de abajo" value="0" style="border-radius: 6px; background-color: white;"><br>
         <h1 id="introe">x</h1> <br>
-        <input type="number" id="multiel" value="0"><br> <br>
-        <button id=resultado onclick = "multi()">Resultado</button>
-        <h1 id="intror">-----------------</h1>
+        <input type="number" id="multiel" title="El numero que pongas aqui sera multiplicado por el numero que pongas en el recuadro de arriba" value="0"  style="border-radius: 6px; background-color: white;"><br> <br>
+        <button id=resultado onclick = "multi()" style="border-radius: 15px; background-color: white;">Resultado</button>
+        <h1 id="intror">_________________</h1>
         
         
-        <!-- ------------------   Restar  --------------- -->
+<!--
+            ------------------   Restar  --------------- 
+-->
         
         
-        <h2 id="introt">Restar</h2><br>
+        <h2 id="introt" onclick="def3()">Restar</h2><br>
         <br>
-       <input type=number id=Leyomenosuno value="0"> <br>
+       <input type=number id=Leyomenosuno title="El numero que pongas aqui sera restado con el numero que pongas en el recuadro de abajo" value="0" style="border-radius: 6px; background-color: white;"> <br>
        <h1 id="introy">-</h1> <br>
-       <input type=number id=Leyomenosdos value="0"> <br> <br>
-       <button id=resultado onclick="restar()">Resultado</button>
+       <input type=number id=Leyomenosdos title="El numero que pongas aqui sera restado con el numero que pongas en el recuadro de arriba" value="0" style="border-radius: 6px; background-color: white;"> <br> <br>
+       <button id=resultado onclick="restar()"style="border-radius: 15px; background-color: white;">Resultado</button>
         <br>
-        <h1 id="introi">-----------------</h1>
+        <h1 id="introi">_________________</h1>
         
         
-        <!-- ------------------   Dividir  ------------------ -->
+<!-- 
+            ------------------   Dividir  ------------------
+-->
         
         
-        <h2 id="introo">Dividir</h2> <br>
-        <input type=number id=efe value="0"> <br> 
+        <h2 id="introo" onclick="def4()">Dividir</h2> <br>
+        <input type=number id=efe title="El numero que pongas aqui sera dividido con el numero que pongas en el recuadro de abajo" value="0" style="border-radius: 6px; background-color: white;"> <br> 
         <h1 id="introp">\</h1><br> 
-        <input type=number id=F value="0"> <br>
-        <h1 id="introa">-----------------</h1>
-        <br>
-        <button id=resultado onclick="divino()">Resultado</button><br><br><br><br><br><br>
+        <input type=number id=F title="El numero que pongas aqui sera dividido con el numero que pongas en el recuadro de arriba" value="0" style="border-radius: 6px; background-color: white;"> <br><br>
+         <button id=resultado onclick="divino()" style="border-radius: 15px; background-color: white;"">Resultado</button>
+        <h1 id="introa">_________________</h1>
 
-        <!-- ------------------ Tabla del 3 ------------------ -->
-        <h1 id="ao">---- New! 08/11/2020 ----</h1>
-        <h2 id="au">Regla del 3</h2>
+<!-- 
+            ------------------ Tabla del 3 ------------------ 
+-->
 
-        <input type="number" id="divesto" value="100" minlength="1">
+        <h2 id="au" onclick="def5()">Regla del 3</h2> <h6 onclick="Ejemploa()"> Ver ejemplo de la regla del 3</h6>
+</div>
+<div>
+        <input type="number" id="divesto" value="100" minlength="1" style="border-radius: 6px; background-color: white;">
+-------
+        <input type="number" id="poresto" value="0" style="border-radius: 6px; background-color: white;"><br> <br>
 
-        <input type="number" id="poresto" value="0"><br> <br>
+        <input type="number" id="estox" value="0" style="border-radius: 6px; background-color: white;">--------  X<br><br><br>
+        </div>
+<div align="center">
+        <button onclick="regla()" style="border-radius: 15px; background-color: white;">Resultado</button><br><br>
+        <button onclick = "invertir()" style="border-radius: 15px; background-color: white;"> Invertir colores </button>
+        <button onclick = "Restaurar()" style="border-radius: 15px; background-color: white;"> Restaurar </button>
+</div>
+        <p id="ae" style="color: black; text-align: center; font-size: 500%;margin-top: 0px;margin-bottom: -100px;font-weight: 500% ">_______________</p>
 
-        <input type="number" id="estox" value="0"><br><br>
 
-        <button onclick="regla()">Resultado</button><br><br>
+<!--
+         ------------------ Meto el CSS ------------------
+-->
+            <style> 
+        p {
+        color:black;
+        }
+        body {
+          background-color:white;
+        }
+          input {
+            text-align: center;
+            border-width:2px;
+            border-color:black;
+          }
+          h2 {
+            color: black;
+          }
+          a {
+            color: black;
+          }
+          h1 {
+            color: black;
+          }
 
-        <button onclick = "invertir()">Invertir colores</button> <br><br>
-
-        <p id="ae" style="color: black">----- Este es el final de la pagina -----</p>
-
-
-        <!-- Aqui comienzan los estilos -->
-            <link rel="stylesheet" type="text/css" href="css/main.css">
-            
+</style>
+            <script type="text/javascript">
+            	alert("ADVERTENCIA: Invertir colores puede desencadenar potencialmente convulsiones en personas con epilepsia fotosensible. Se recomienda la discreción del usuario.")
+                alert("Nuevo!: Redondeo en los botones y cajas de entrada; Alineacion centrada")
+            </script>
         </body>
         </html>
