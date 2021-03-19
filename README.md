@@ -10,6 +10,6 @@ Espero que si te gusta, le des una estrellita, para que mas gente lo pueda ver y
 ---------------ENGLISH:---------------
 ---------------INGLES:---------------
 
-Hello! I am @ isamel1222 and here I have a project that I have done with all my love!
+Hello! I am @isamel1222 and here I have a project that I have done with all my love!
 This is a calculator that I have made with JS HTML and CSS
 I hope that if you like it, give it a star, so that more people can see it and give their opinion, and more stars!
