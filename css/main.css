@@ -5,11 +5,14 @@
           background-color:white;
         }
           input {
-            text-align: top;
+            text-align: center;
             border-width:2px;
             border-color:black;
           }
           h2 {
+            color: black;
+          }
+          a {
             color: black;
           }
           h1 {
