@@ -1,8 +1,15 @@
 # Calc
-Una calculadora basica //
- apesar de que este en español espero que tambien entiendan 
- los que habla ingles porque hay cosas que pongo en español y otras en  ingles
- la verdad nose porque lo hago (acostumbro a hacerlo).
 
- Bueno, espero que funcione y que reporten los bugs en la parte
- de "Issues"
+---------------SPANISH:---------------
+---------------ESPAÑOL:---------------
+
+Hola! soy @isamel1222 y aqui tengo un proyecto que he hecho con todo mi cariño!
+Esta es una calculadora que he hecho con JS HTML y CSS
+Espero que si te gusta, le des una estrellita, para que mas gente lo pueda ver y dar su opinion, y mas estrellas!
+
+---------------ENGLISH:---------------
+---------------INGLES:---------------
+
+Hello! I am @ isamel1222 and here I have a project that I have done with all my love!
+This is a calculator that I have made with JS HTML and CSS
+I hope that if you like it, give it a star, so that more people can see it and give their opinion, and more stars!
